@@ -15,13 +15,16 @@ class personaController extends Controller
         $p -> mail = $request->input('email');
         $p -> save();
 
+        $n = $request->input('nombre');
+
       
-        return view('personas');
+        return view('altaPersona', ['personaCreadaNombre' => $n]);
 
     }
 
     public function listarTodasLasPersonas(){
         $personas = personaModel::all();
+
         return view('personas', ['personas' => $personas]);
 
     }

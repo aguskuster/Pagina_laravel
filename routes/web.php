@@ -24,4 +24,4 @@ Route::get('/productos' , function (){
 
 
 
-Route::post('/personas', 'personaController@crearPersona');
+Route::post('/altaPersona', 'personaController@crearPersona');

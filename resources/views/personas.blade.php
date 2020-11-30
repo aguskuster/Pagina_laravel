@@ -4,7 +4,7 @@
         <br><br>
         <h3 class="text-center">Agregar persona</h3>
 
-        <form action="/personas" method="post">
+        <form action="/altaPersona" method="post">
             @csrf
             <div class="form-group">
                 <label for="inputNombre">Nombre</label>

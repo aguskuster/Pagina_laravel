@@ -19,7 +19,7 @@
                 <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email">
             </div>
 
-            <button type="submit" class="btn btn-primary">Agregar Persona</button>
+            <button type="submit" class="btn btn-primary">Agregar</button>
         </form>
 
     </div>
